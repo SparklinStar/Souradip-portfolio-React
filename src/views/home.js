@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
-import FeatureCard from '../components/feature-card'
-import TestimonialCard1 from '../components/testimonial-card1'
-import Question1 from '../components/question1'
-import './home.css'
+import FeatureCard from "../components/feature-card";
+import TestimonialCard1 from "../components/testimonial-card1";
+import Question1 from "../components/question1";
+import "./home.css";
 
 const Home = (props) => {
   return (
@@ -117,11 +117,10 @@ const Home = (props) => {
               <span className="home-hero-sub-heading bodyLarge">
                 <span>
                   <span>
-                    <span>Frontend Developer Extraordinaire</span>
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
@@ -130,14 +129,14 @@ const Home = (props) => {
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
@@ -148,14 +147,14 @@ const Home = (props) => {
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
@@ -164,14 +163,14 @@ const Home = (props) => {
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
@@ -210,12 +209,9 @@ const Home = (props) => {
                 <span>
                   <span>
                     <span>
-                      Delivering high-quality frontend development services
-                    </span>
-                    <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
@@ -224,14 +220,14 @@ const Home = (props) => {
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
@@ -242,14 +238,14 @@ const Home = (props) => {
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
@@ -258,14 +254,14 @@ const Home = (props) => {
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
@@ -403,7 +399,7 @@ const Home = (props) => {
         </footer>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
